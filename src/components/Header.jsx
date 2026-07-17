@@ -30,9 +30,9 @@ export default function Header() {
           {/* 3. LADO DERECHO: MENÚ DE NAVEGACIÓN */}
           <nav id="navmenu" className="navmenu">
             <ul className="d-flex gap-4 list-unstyled mb-0">
-              <li><a href="#header" className="active text-white text-decoration-none">Home</a></li>
-              <li><a href="#hero" className="text-white text-decoration-none">Quiénes Somos</a></li>
-              <li><a href="#about" className="text-white text-decoration-none">Historia</a></li>
+              <li><a href="/index.html" className="active text-white text-decoration-none">Home</a></li>
+              <li><a href="/index.html#quienessomos" className="text-white text-decoration-none">Quiénes Somos</a></li>
+              <li><a href="/index.html#about" className="text-white text-decoration-none">Historia</a></li>
               <li><a href="#portfolio" className="text-white text-decoration-none">Misión</a></li>
               <li><a href="#team" className="text-white text-decoration-none">Visión</a></li>
               <li><a href="#stats" className="text-white text-decoration-none">Objetivos</a></li>

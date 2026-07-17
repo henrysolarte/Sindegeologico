@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
-import Hero from './components/Hero';
-import About from './components/About';
+import QuienesSomos from './components/quienessomos';
+import Historia from './components/historia';
 import Skills from './components/Skills';
 import Stats from './components/Stats';
 import Clients from './components/Clients';
@@ -12,12 +12,12 @@ function App() {
     <>
       <Header />
       <main className="main">
-        <Hero />
+        <QuienesSomos />
         
         {/* PASAMOS TU GALERÍA DE IMÁGENES AQUÍ ARRIBA DE ABOUT */}
         <Services /> 
         
-        <About />
+        <Historia />
         <Skills />
         <Stats />
         <Clients />
