@@ -16,7 +16,13 @@ export default function Services() {
       <div className="container text-center mb-5">
         <h2 style={{ color: '#046a4f', fontWeight: 'bold' }}>Nuestra Gestión y Eventos</h2>
         <p className="text-muted fw-bold">
-          <i className="bi bi-cursor-fill text-success"></i> INSCRIBETE
+          <a
+            href="/formulario-sindegeologico.html"
+            className="text-decoration-none"
+            style={{ color: 'inherit' }}
+          >
+            <i className="bi bi-cursor-fill text-success"></i> INSCRIBETE
+          </a>
         </p>
       </div>
 
