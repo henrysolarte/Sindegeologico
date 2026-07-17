@@ -16,7 +16,7 @@ export default function Services() {
       <div className="container text-center mb-5">
         <h2 style={{ color: '#046a4f', fontWeight: 'bold' }}>Nuestra Gestión y Eventos</h2>
         <p className="text-muted fw-bold">
-          <i className="bi bi-cursor-fill text-success"></i> Haz clic en una imagen para aumentarla un 40%
+          <i className="bi bi-cursor-fill text-success"></i> INSCRIBETE
         </p>
       </div>
 

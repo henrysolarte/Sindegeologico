@@ -10,6 +10,7 @@ export default defineConfig({
         main: resolve(__dirname, 'index.html'),
         historia: resolve(__dirname, 'historia.html'),
         juntadirectiva: resolve(__dirname, 'juntadirectiva.html'),
+        formulario: resolve(__dirname, 'formulario-sindegeologico.html'),
       },
     },
   },
