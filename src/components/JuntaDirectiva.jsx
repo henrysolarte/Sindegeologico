@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './Footer';
 
 export default function JuntaDirectiva() {
   return (
@@ -68,7 +69,7 @@ export default function JuntaDirectiva() {
             <div className="col-lg-6">
               <div className="image-container position-relative">
                 <img
-                  src="/assets/img/sindicato.jpeg"
+                  src="/assets/img/fotosind8.jpeg"
                   alt="Junta Directiva"
                   className="img-fluid rounded shadow-lg"
                   style={{ objectFit: 'cover', width: '100%', height: 'auto', maxHeight: '450px' }}
@@ -78,6 +79,7 @@ export default function JuntaDirectiva() {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 }

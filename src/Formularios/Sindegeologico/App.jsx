@@ -1,7 +1,9 @@
 ﻿import { useEffect, useRef, useState } from 'react'
 import { jsPDF } from 'jspdf'
 import './App.css'
-import logoSindegeologico from './logo.png'
+import Footer from '../../components/Footer'
+
+const logoSindegeologico = '/assets/img/logo-sindegeologico.png'
 
 const initialData = {
   nombres: '',
@@ -609,6 +611,7 @@ function App() {
         {emailStatus && <p className="status-message">{emailStatus}</p>}
         {resultado && <pre>{JSON.stringify(resultado, null, 2)}</pre>}
       </div>
+      <Footer />
     </div>
   )
 }

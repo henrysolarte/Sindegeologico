@@ -5,6 +5,7 @@ import Historia from './components/historia';
 import Mision from './components/mision';
 import Vision from './components/vision';
 import Services from './components/Services';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Mision />
         <Vision />
       </main>
+      <Footer />
     </>
   );
 }

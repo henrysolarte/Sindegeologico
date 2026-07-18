@@ -26,7 +26,7 @@ export default function Vision() {
                 src="/assets/img/fotosind14.jpg"
                 alt="Vision SINDEGEOLOGICO"
                 className="img-fluid rounded shadow-sm"
-                style={{ width: '100%', maxHeight: '420px', objectFit: 'cover' }}
+                style={{ width: '300%', maxWidth: '560px', maxHeight: '280px', objectFit: 'cover' }}
               />
             </div>
           </div>
