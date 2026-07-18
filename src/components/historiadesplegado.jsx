@@ -33,7 +33,6 @@ export default function About() {
                 <li><a href="#portfolio" className="text-white text-decoration-none">Mision</a></li>
                 <li><a href="#team" className="text-white text-decoration-none">Vision</a></li>
                 <li><a href="#stats" className="text-white text-decoration-none">Objetivos</a></li>
-                <li><a href="/formulario-sindegeologico.html" className="text-white text-decoration-none">Formulario</a></li>
                 <li><a href="/formulario-sindegeologico.html" className="text-white text-decoration-none fw-bold">INSCRIBETE</a></li>
               </ul>
             </nav>

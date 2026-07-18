@@ -2,8 +2,8 @@ import React from 'react';
 import Header from './components/Header';
 import QuienesSomos from './components/quienessomos';
 import Historia from './components/historia';
-import Skills from './components/Skills';
-import Stats from './components/Stats';
+import Mision from './components/mision';
+import Vision from './components/vision';
 import Clients from './components/Clients';
 import Services from './components/Services';
 
@@ -18,8 +18,8 @@ function App() {
         <Services /> 
         
         <Historia />
-        <Skills />
-        <Stats />
+        <Mision />
+        <Vision />
         <Clients />
       </main>
     </>
