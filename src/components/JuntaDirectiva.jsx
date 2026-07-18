@@ -60,6 +60,7 @@ export default function JuntaDirectiva() {
                   <li>William Cifuentes Suárez - Fiscal</li>
                   <li>Miguel Angel Chia - Vocal</li>
                   <li>Andres Lugo - Vocal</li>
+                  <li>Danilo León - Vocal</li>
                   <li>Henry Solarte Fajardo - Vocal</li>
                 </ul>
               </div>
