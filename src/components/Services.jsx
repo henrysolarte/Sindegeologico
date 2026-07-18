@@ -6,7 +6,7 @@ export default function Services() {
 
   // Lista con la extensión exacta (.jpeg) comprobada en tu explorador de Windows
  const imagenesServicios = [
-    { id: 5, src: '/assets/img/imagen5.jpeg', alt: 'Sindicato Imagen 5' },
+    { id: 5, src: '/assets/img/fotosind10.jpeg', alt: 'Sindicato Imagen 14' },
     { id: 6, src: '/assets/img/imagen6.jpeg', alt: 'Sindicato Imagen 6' },
     { id: 7, src: '/assets/img/imagen7.jpeg', alt: 'Sindicato Imagen 7' },
     { id: 8, src: '/assets/img/imagen8.jpeg', alt: 'Sindicato Imagen 8' } // ◄ Cambiado de .jpeg a .jpg
