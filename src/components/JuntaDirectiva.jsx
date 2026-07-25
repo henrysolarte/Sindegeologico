@@ -56,12 +56,12 @@ export default function JuntaDirectiva() {
                   <li>Jaime Alberto Garzon Barrios - Presidente</li>
                   <li>Mercedes Ortiz Montañez - Vicepresidente</li>
                   <li>Esperanza Sanabria- Secretaria</li>
-                  <li>Carlos Castillo - Tesorero</li>
+                  <li>Carlos A. Castillo - Tesorero</li>
                   <li>William Cifuentes Suárez - Fiscal</li>
-                  <li>Miguel Angel Chia - Vocal</li>
-                  <li>Andres Lugo - Vocal</li>
-                  <li>Danilo León - Vocal</li>
-                  <li>Henry Solarte Fajardo - Vocal</li>
+                  <li>Miguel Angel Chia González - Secretaria de Bienestar Social y Seguriad Social</li>
+                  <li>Andres Stiven Lugo Cruz - Secretaria de Educación y Formación Profesional</li>
+                  <li>Javier Danilo León Cuellar - Secretaria de Planeación y Desarrollo Social</li>
+                  <li>Henry Solarte Fajardo - Secretaria de Fomento Cultural</li>
                 </ul>
               </div>
             </div>
