@@ -32,10 +32,8 @@ export default function Header({ hideVideo = false }) {
             <ul className="d-flex gap-4 list-unstyled mb-0">
               <li><a href="/" className="active text-white text-decoration-none">Home</a></li>
               <li><a href="/noticias.html" className="text-white text-decoration-none">Noticias</a></li>
-              <li><a href="/#quienessomos" className="text-white text-decoration-none">Quiénes Somos</a></li>
               <li><a href="/#historia" className="text-white text-decoration-none">Historia</a></li>
               <li><a href="/#mision" className="text-white text-decoration-none">Misión</a></li>
-              <li><a href="/#vision" className="text-white text-decoration-none">Visión</a></li>
               <li><a href="/formulario-sindegeologico.html" className="text-white text-decoration-none fw-bold">INSCRIBETE</a></li>
             </ul>
           </nav>
