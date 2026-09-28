@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from './components/Header';
-import VideoPresentation from './components/VideoPresentation';
 import QuienesSomos from './components/quienessomos';
 import Historia from './components/historia';
 import Mision from './components/mision';
@@ -13,7 +12,6 @@ function App() {
     <>
       <Header />
       <main className="main">
-        <VideoPresentation />
         <QuienesSomos />
         
         {/* PASAMOS TU GALERÍA DE IMÁGENES AQUÍ ARRIBA DE ABOUT */}

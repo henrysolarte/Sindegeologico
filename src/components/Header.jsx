@@ -41,6 +41,28 @@ export default function Header() {
           </nav>
         </div>
       </div>
+
+      {/* BLOQUE DEL VIDEO */}
+      <div className="d-flex justify-content-center my-4">
+        <video 
+          width="40%" 
+          height="auto" 
+          controls 
+          autoPlay 
+          playsInline
+          muted 
+          loop
+          preload="auto"
+          style={{ 
+            display: 'block', 
+            borderRadius: '10px', 
+            boxShadow: '0 4px 12px rgba(0,0,0,0.15)' 
+          }}
+        >
+          <source src="/assets/video/video.mp4" type="video/mp4" />
+          Tu navegador no soporta el tag de video.
+        </video>
+      </div>
     </header>
   );
 }
