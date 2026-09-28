@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Header() {
+export default function Header({ hideVideo = false }) {
   return (
     <header id="header" className="header d-flex flex-column">
       <div className="branding d-flex align-items-center" style={{ background: 'linear-gradient(135deg, #069169 0%, #046a4f 100%)', padding: '15px 0', minHeight: '160px' }}>
@@ -42,27 +42,29 @@ export default function Header() {
         </div>
       </div>
 
-      {/* BLOQUE DEL VIDEO */}
-      <div className="d-flex justify-content-center my-4">
-        <video 
-          width="40%" 
-          height="auto" 
-          controls 
-          autoPlay 
-          playsInline
-          muted 
-          loop
-          preload="auto"
-          style={{ 
-            display: 'block', 
-            borderRadius: '10px', 
-            boxShadow: '0 4px 12px rgba(0,0,0,0.15)' 
-          }}
-        >
-          <source src="/assets/video/video.mp4" type="video/mp4" />
-          Tu navegador no soporta el tag de video.
-        </video>
-      </div>
+      {/* BLOQUE DEL VIDEO - Solo se muestra si hideVideo es false */}
+      {!hideVideo && (
+        <div className="d-flex justify-content-center my-4">
+          <video 
+            width="40%" 
+            height="auto" 
+            controls 
+            autoPlay 
+            playsInline
+            muted 
+            loop
+            preload="auto"
+            style={{ 
+              display: 'block', 
+              borderRadius: '10px', 
+              boxShadow: '0 4px 12px rgba(0,0,0,0.15)' 
+            }}
+          >
+            <source src="/assets/video/video.mp4" type="video/mp4" />
+            Tu navegador no soporta el tag de video.
+          </video>
+        </div>
+      )}
     </header>
   );
 }

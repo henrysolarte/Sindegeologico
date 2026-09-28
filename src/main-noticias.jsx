@@ -6,7 +6,7 @@ import Footer from './components/Footer.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Header />
+    <Header hideVideo={true} />
     <Noticias />
     <Footer />
   </React.StrictMode>,
