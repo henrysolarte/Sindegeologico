@@ -9,7 +9,7 @@ export default function Header() {
           {/* 1. LADO IZQUIERDO: LOGO */}
           <div className="d-flex align-items-center gap-3">
             <a href="/" className="logo d-flex align-items-center text-decoration-none">
-              <img src="/assets/img/logo-sindegeologico.png" alt="SGC Logo" style={{ height: '120px', width: 'auto', maxHeight: 'none', objectFit: 'contain' }} />
+              <img src="/assets/img/logo-sindegeologico.png" alt="SGC Logo" style={{ height: '160px', width: 'auto', maxHeight: 'none', objectFit: 'contain' }} />
             </a>
           </div>
 
