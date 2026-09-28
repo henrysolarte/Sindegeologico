@@ -2,7 +2,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 280px; /* Espacio ajustado para header sin saltar secciones */
+  scroll-padding-top: 350px; /* Espacio para mostrar sección completa */
 }
 
 /* Asegurar que los enlaces ancla funcionen bien */
