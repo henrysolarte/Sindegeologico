@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Mision() {
   return (
-    <section id="portfolio" className="skills section py-5 bg-light">
+    <section id="mision" className="skills section py-5 bg-light">
       <div className="container">
         <div className="text-center mb-5">
           <h2 style={{ color: '#046a4f', fontWeight: 'bold' }}>MISION</h2>

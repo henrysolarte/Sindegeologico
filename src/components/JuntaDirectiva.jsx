@@ -48,21 +48,30 @@ export default function JuntaDirectiva() {
                 <h2 className="mb-4" style={{ color: '#046a4f', fontWeight: 'bold', fontSize: '2.5rem' }}>
                   Junta Directiva
                 </h2>
-                <p className="text-muted" style={{ lineHeight: '1.8', fontSize: '1.1rem', textAlign: 'justify' }}>
-                  Direccion sindical de SINDEGEOLOGICO
+                <p className="text-muted mb-3" style={{ lineHeight: '1.8', fontSize: '1.05rem', textAlign: 'justify' }}>
+                  En el marco del fortalecimiento de la representación laboral y el ejercicio del derecho de asociación, se dio a conocer la conformación de los miembros que integran la nueva junta directiva de <strong>Sindegeológico</strong>.
                 </p>
 
-                <ul className="text-muted ps-3" style={{ lineHeight: '1.9', fontSize: '1.08rem' }}>
-                  <li>Jaime Alberto Garzon Barrios - Presidente</li>
-                  <li>Mercedes Ortiz Montañez - Vicepresidente</li>
-                  <li>Esperanza Sanabria- Secretaria</li>
-                  <li>Carlos A. Castillo - Tesorero</li>
-                  <li>William Cifuentes Suárez - Fiscal</li>
-                  <li>Miguel Angel Chia González - Secretaria de Bienestar Social y Seguriad Social</li>
-                  <li>Andres Stiven Lugo Cruz - Secretaria de Educación y Formación Profesional</li>
-                  <li>Javier Danilo León Cuellar - Secretaria de Planeación y Desarrollo Social</li>
-                  <li>Henry Solarte Fajardo - Secretaria de Fomento Cultural</li>
+                <p className="text-muted mb-4" style={{ lineHeight: '1.8', fontSize: '1.05rem', textAlign: 'justify' }}>
+                  A través del acto administrativo correspondiente, se oficializó la concesión de permiso sindical remunerado a los funcionarios designados, quienes asumirán la vocación de servicio y liderazgo en beneficio del colectivo de trabajadores:
+                </p>
+
+                <ul className="text-muted ps-4" style={{ lineHeight: '2.1', fontSize: '1.05rem' }}>
+                  <li><strong>Mercedes Ortiz Montañez</strong> - Presidente</li>
+                  <li><strong>Cristian Yobany Jiménez Sánchez</strong> - Vicepresidente</li>
+                  <li><strong>Esperanza Sanabria Ortiz</strong> - Secretaria</li>
+                  <li><strong>William Cifuentes Suárez</strong> - Fiscal</li>
+                  <li><strong>Carlos Alberto Castillo Moreno</strong> - Tesorero</li>
+                  <li><strong>Miguel Ángel Chía González</strong> - Vocal</li>
+                  <li><strong>Andrés Stiven Lugo Cruz</strong> - Vocal</li>
+                  <li><strong>Javier Danilo León Cuéllar</strong> - Vocal</li>
+                  <li><strong>Henry Jesús Solarte Fajardo</strong> - Vocal</li>
+                  <li><strong>Iván Camilo Ramírez Sanabria</strong> - Vocal</li>
                 </ul>
+
+                <p className="text-muted mt-4" style={{ lineHeight: '1.8', fontSize: '1.05rem', textAlign: 'justify' }}>
+                  Este equipo directivo estará al frente de las actividades de gestión e intermediación en favor de sus afiliados durante el periodo estipulado para el desarrollo de sus funciones sindicales.
+                </p>
               </div>
             </div>
 

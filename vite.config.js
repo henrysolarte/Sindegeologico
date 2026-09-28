@@ -11,6 +11,7 @@ export default defineConfig({
         historia: resolve(__dirname, 'historia.html'),
         juntadirectiva: resolve(__dirname, 'juntadirectiva.html'),
         formulario: resolve(__dirname, 'formulario-sindegeologico.html'),
+        noticias: resolve(__dirname, 'noticias.html'),
       },
     },
   },

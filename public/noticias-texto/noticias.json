@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "titulo": "SINDEGEOLOGICO tiene nuevo presidente",
+    "descripcion": "La servidora pública Mercedes Ortiz ha sido designada como la nueva presidenta de SINDEGEOLOGICO, después de la renuncia del ingeniero Jaime Garzón, quien fue designado como Director de la Dirección de Gestión de la Información.",
+    "imagen": "/assets/img/noticias-imagen/noticia1.jpeg"
+  },
+  {
+    "id": 2,
+    "titulo": "SINDEGEOLOGICO reorganizó su junta directiva",
+    "descripcion": "Sindegeológico presenta a los integrantes de su nueva Junta Directiva. En el marco del fortalecimiento de la representación laboral y el ejercicio del derecho de asociación, se dio a conocer la conformación de los miembros que integran la nueva junta directiva de Sindegeológico. A través del acto administrativo correspondiente, se oficializó la concesión de permiso sindical remunerado a los funcionarios designados, quienes asumirán la vocación de servicio y liderazgo en beneficio del colectivo de trabajadores: Mercedes Ortiz Montañez, Cristian Yobany Jiménez Sánchez, Esperanza Sanabria Ortiz, William Cifuentes Suárez, Carlos Alberto Castillo Moreno, Miguel Ángel Chía González, Andrés Stiven Lugo Cruz, Javier Danilo León Cuéllar, Henry Jesús Solarte Fajardo, Iván Camilo Ramírez Sanabria.",
+    "imagen": "/assets/img/noticias-imagen/noticia2.jpeg"
+  },
+  {
+    "id": 3,
+    "titulo": "Encuentro con el nuevo director general del SGC",
+    "descripcion": "Sindegeológico sostiene primer encuentro formal con el nuevo director general del SGC, Amat David Zuluaga Guerra. En un ambiente de diálogo institucional y compromiso con los derechos laborales, la junta directiva de Sindegeológico se presentó formalmente ante el nuevo director general del Servicio Geológico Colombiano (SGC). El encuentro buscó afianzar los canales de comunicación entre la organización sindical y la dirección de la entidad, estableciendo una agenda de trabajo enfocada en las garantías laborales, el fortalecimiento técnico institucional y la calidad de vida de los trabajadores.",
+    "imagen": "/assets/img/noticias-imagen/noticia3.jpeg"
+  }
+]

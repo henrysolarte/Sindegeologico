@@ -30,37 +30,16 @@ export default function Header() {
           {/* 3. LADO DERECHO: MENÚ DE NAVEGACIÓN */}
           <nav id="navmenu" className="navmenu">
             <ul className="d-flex gap-4 list-unstyled mb-0">
-              <li><a href="/index.html" className="active text-white text-decoration-none">Home</a></li>
-              <li><a href="/index.html#quienessomos" className="text-white text-decoration-none">Quiénes Somos</a></li>
-              <li><a href="/index.html#about" className="text-white text-decoration-none">Historia</a></li>
-              <li><a href="#portfolio" className="text-white text-decoration-none">Misión</a></li>
-              <li><a href="#team" className="text-white text-decoration-none">Visión</a></li>
+              <li><a href="/" className="active text-white text-decoration-none">Home</a></li>
+              <li><a href="/noticias.html" className="text-white text-decoration-none">Noticias</a></li>
+              <li><a href="/#quienessomos" className="text-white text-decoration-none">Quiénes Somos</a></li>
+              <li><a href="/#historia" className="text-white text-decoration-none">Historia</a></li>
+              <li><a href="/#mision" className="text-white text-decoration-none">Misión</a></li>
+              <li><a href="/#vision" className="text-white text-decoration-none">Visión</a></li>
               <li><a href="/formulario-sindegeologico.html" className="text-white text-decoration-none fw-bold">INSCRIBETE</a></li>
             </ul>
           </nav>
         </div>
-      </div>
-
-      {/* BLOQUE DEL VIDEO CORREGIDO ANTERIORMENTE */}
-      <div className="d-flex justify-content-center my-4">
-        <video 
-          width="40%" 
-          height="auto" 
-          controls 
-          autoPlay 
-          playsInline
-          muted 
-          loop
-          preload="auto"
-          style={{ 
-            display: 'block', 
-            borderRadius: '10px', 
-            boxShadow: '0 4px 12px rgba(0,0,0,0.15)' 
-          }}
-        >
-          <source src="/assets/video/video.mp4" type="video/mp4" />
-          Tu navegador no soporta el tag de video.
-        </video>
       </div>
     </header>
   );

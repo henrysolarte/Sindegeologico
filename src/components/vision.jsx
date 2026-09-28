@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Vision() {
   return (
-    <section id="team" className="skills section py-5 bg-light">
+    <section id="vision" className="skills section py-5 bg-light">
       <div className="container">
         <div className="text-center mb-5">
           <h2 style={{ color: '#046a4f', fontWeight: 'bold' }}>VISION</h2>
