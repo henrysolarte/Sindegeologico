@@ -1,0 +1,11 @@
+/* Estilos globales para asegurar navegación correcta a secciones */
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 250px; /* Espacio para que el Header no tape el contenido */
+}
+
+/* Asegurar que los enlaces ancla funcionen bien */
+a[href^="#"] {
+  scroll-behavior: smooth;
+}
