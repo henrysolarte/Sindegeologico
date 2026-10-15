@@ -53,11 +53,12 @@ export default function Noticias() {
 
   const noticia = noticias[noticiaActual];
   const imagenCargada = imagenesCargadas[noticia.id] !== false;
+  const tieneTexto = noticia.descripcion && noticia.descripcion.trim().length > 0;
 
   return (
     <section className="noticias-section">
       <div className="noticias-container">
-        <div className="noticias-content">
+        <div className={`noticias-content ${!tieneTexto ? 'solo-imagen' : ''}`}>
           <div className="noticias-imagen">
             {imagenCargada ? (
               <img 
@@ -74,25 +75,43 @@ export default function Noticias() {
             )}
           </div>
           
-          <div className="noticias-texto">
-            <h2>{noticia.titulo}</h2>
-            <p>{noticia.descripcion}</p>
-            
-            <div className="noticias-controles">
-              <button className="btn-anterior" onClick={anterior}>
-                ← Anterior
-              </button>
+          {tieneTexto && (
+            <div className="noticias-texto">
+              <h2>{noticia.titulo}</h2>
+              <p>{noticia.descripcion}</p>
               
-              <span className="contador">
-                {noticiaActual + 1} de {noticias.length}
-              </span>
-              
-              <button className="btn-siguiente" onClick={siguiente}>
-                Siguiente →
-              </button>
+              <div className="noticias-controles">
+                <button className="btn-anterior" onClick={anterior}>
+                  ← Anterior
+                </button>
+                
+                <span className="contador">
+                  {noticiaActual + 1} de {noticias.length}
+                </span>
+                
+                <button className="btn-siguiente" onClick={siguiente}>
+                  Siguiente →
+                </button>
+              </div>
             </div>
-          </div>
+          )}
         </div>
+        
+        {!tieneTexto && (
+          <div className="noticias-controles-full">
+            <button className="btn-anterior" onClick={anterior}>
+              ← Anterior
+            </button>
+            
+            <span className="contador">
+              {noticiaActual + 1} de {noticias.length}
+            </span>
+            
+            <button className="btn-siguiente" onClick={siguiente}>
+              Siguiente →
+            </button>
+          </div>
+        )}
       </div>
     </section>
   );
