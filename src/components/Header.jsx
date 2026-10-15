@@ -34,7 +34,7 @@ export default function Header({ hideVideo = false }) {
               <li><a href="/noticias.html" className="text-white text-decoration-none">Noticias</a></li>
               <li><a href="/#historia" className="text-white text-decoration-none">Historia</a></li>
               <li><a href="/#mision" className="text-white text-decoration-none">Misión</a></li>
-              <li><a href="/formulario-sindegeologico.html" className="text-white text-decoration-none fw-bold">INSCRIBETE</a></li>
+              <li><a href="/formulario-sindegeologico.html" className="text-white text-decoration-none fw-bold">INSCRÍBETE</a></li>
             </ul>
           </nav>
         </div>

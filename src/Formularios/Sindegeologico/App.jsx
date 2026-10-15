@@ -451,7 +451,7 @@ function App() {
                 <li><a href="/index.html#about" className="text-white text-decoration-none">Historia</a></li>
                 <li><a href="#portfolio" className="text-white text-decoration-none">Misión</a></li>
                 <li><a href="#team" className="text-white text-decoration-none">Visión</a></li>
-                <li><a href="/formulario-sindegeologico.html" className="text-white text-decoration-none fw-bold">INSCRIBETE</a></li>
+                <li><a href="/formulario-sindegeologico.html" className="text-white text-decoration-none fw-bold">INSCRÍBETE</a></li></a>
               </ul>
             </nav>
           </div>

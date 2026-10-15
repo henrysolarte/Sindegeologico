@@ -5,7 +5,7 @@ export default function Vision() {
     <section id="vision" className="skills section py-5 bg-light">
       <div className="container">
         <div className="text-center mb-5">
-          <h2 style={{ color: '#046a4f', fontWeight: 'bold' }}>VISION</h2>
+          <h2 style={{ color: '#046a4f', fontWeight: 'bold' }}>VISIÓN</h2>
         </div>
 
         <div className="row align-items-center g-4">

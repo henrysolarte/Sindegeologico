@@ -9,8 +9,8 @@ export default function About() {
         <div className="row g-5 align-items-start">
           <div className="col-lg-6">
             <div className="content">
-               <h2 style={{ color: '#046a4f', fontWeight: 'bold', fontSize: '2.5rem' }}>Historia de Sindegeologico</h2>
-        <p className="lead text-muted" style={{ lineHeight: '1.8', fontSize: '1.1rem' }}>El sindicato de los trabajadores</p>
+               <h2 style={{ color: '#046a4f', fontWeight: 'bold', fontSize: '2.5rem' }}>Historia de Sindegeológico</h2>
+        <p className="lead text-muted" style={{ lineHeight: '1.8', fontSize: '1.1rem' }}>El Sindicato de los Trabajadores</p>
               <h2 className="mb-4" style={{ color: '#046a4f', fontWeight: 'bold', fontSize: '2.1rem' }}>Cincuenta años de unidad, compromiso y defensa de los trabajadores</h2>
               <p className="lead my-4 text-muted" style={{ lineHeight: '1.8', fontSize: '1.1rem', textAlign: 'justify' }}>La historia de SINDEGEOLÓGICO es la historia de mujeres y hombres que comprendieron que la mejor forma de proteger la dignidad del trabajo público era actuando unidos.</p>
               <div className="description text-muted" style={{ lineHeight: '1.8', fontSize: '1.05rem', textAlign: 'justify' }}>

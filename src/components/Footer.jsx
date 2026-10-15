@@ -11,7 +11,7 @@ export default function Footer() {
 
           <div className="row">
             <div className="Descripcion col-4">
-              <p>Dirección: Diagonal 53 N0. 34 - 53 Bogotá D.C. Colombia</p>
+              <p>Dirección: Diagonal 53 No. 34 - 53 Bogotá D.C. Colombia</p>
               <p>Código Postal: 111321</p>
               <p>Teléfono conmutador: (601) 220 0200</p>
             </div>

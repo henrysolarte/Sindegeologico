@@ -21,7 +21,7 @@ export default function Services() {
             className="text-decoration-none"
             style={{ color: 'inherit' }}
           >
-            <i className="bi bi-cursor-fill text-success"></i> INSCRIBETE
+            <i className="bi bi-cursor-fill text-success"></i> INSCRÍBETE
           </a>
         </p>
       </div>

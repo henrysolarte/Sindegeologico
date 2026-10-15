@@ -16,7 +16,7 @@ export default function QuienesSomos() {
                 Quiénes somos
               </h2>
               <p className="text-muted" style={{ lineHeight: '1.8', fontSize: '1.1rem', textAlign: 'justify' }}>
-                Con medio siglo de historia en el Servicio Geológico Colombiano, <strong>SINDEGEOLÓGICO</strong> fusiona la pasión por la ciencia geológica con el poder de la acción colectiva. Somos un sindicato fundamentado en las más altas virtudes éticas, la solidaridad y la justicia social. Protegemos los derechos de nuestra comunidad y el avance del conocimiento científico de la nación, asegurando un camino donde si estamos unidos, nadie queda atrás.
+                Con medio siglo de historia en el Servicio Geológico Colombiano, <strong>SINDEGEOLÓGICO</strong> fusiona la pasión por la ciencia geológica con el poder de la acción colectiva. Somos un sindicato fundamentado en las más altas virtudes éticas, la solidaridad y la justicia social. Protegemos los derechos de nuestra comunidad y el avance del conocimiento científico de la nación, asegurando un camino donde sí estamos unidos, nadie queda atrás.
               </p>
               
               <div className="cta-group d-flex flex-wrap align-items-center gap-4 mt-4">
