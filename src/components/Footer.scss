@@ -56,7 +56,8 @@ $Fondopaginador: #c5c5c5;
 .Redes {
     display: flex;
     justify-content: center;
-    padding: 0 25% 0 25%;
+    padding: 0 10% 0 10%;
+    gap: 10px;
 }
 
 .FondoFooter .CenteredButton {
@@ -68,6 +69,15 @@ $Fondopaginador: #c5c5c5;
 .FondoFooter .CenteredButton img {
     width: 24px;
     height: 24px;
+}
+
+.BotonesRedes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 0 5px;
 }
 
 .Titulo {
