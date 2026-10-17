@@ -28,5 +28,11 @@
     "titulo": "SINDEGEOLÓGICO EN ACCIÓN",
     "descripcion": "",
     "imagen": "/assets/img/noticias-imagen/noticia5.jpg"
+  },
+  {
+    "id": 6,
+    "titulo": "COMPAÑEROS Y COMPAÑERAS EN POPAYÁN SE SUMAN Y APOYAN LAS MARCHAS DEL 14 DE OCTUBRE",
+    "descripcion": "POPAYÁN, 14 DE OCTUBRE DE 2026. Desde la capital del departamento del Cauca, las y los integrantes de SINDEGEOLÓGICO en la sede Popayán dijeron presente en la gran jornada nacional de movilización. Con firmeza, entusiasmo y espíritu de lucha, nuestra delegación marchó junto a diversas organizaciones sociales, sindicales y del magisterio de la región. Portando con orgullo los distintivos del Servicio Geológico Colombiano, las y los trabajadores en Popayán respaldaron con fuerza el clamor por la defensa de los derechos laborales y sociales, demostrando que en cada rincón del país la unidad sindical sigue más viva que nunca. ¡Agradecemos y felicitamos a cada compañero y compañera de la sede Popayán por su valioso compromiso y participación activa en esta jornada histórica!",
+    "imagen": "/assets/img/noticias-imagen/noticia6.jpg"
   }
 ]
