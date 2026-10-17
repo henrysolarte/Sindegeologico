@@ -38,9 +38,11 @@ $Fondopaginador: #c5c5c5;
 
 .FondoFooter .BotonesRedes p {
     color: #005833 !important;
-    font-size: .8rem;
+    font-size: .7rem;
     font-weight: 700;
     margin-top: 2%;
+    margin-bottom: 0;
+    white-space: nowrap;
 }
 
 .FondoFooter button img {
@@ -49,15 +51,17 @@ $Fondopaginador: #c5c5c5;
 }
 
 .FondoFooter button {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 
 .Redes {
     display: flex;
     justify-content: center;
-    padding: 0 10% 0 10%;
-    gap: 10px;
+    align-items: center;
+    padding: 0 0;
+    gap: 5px;
+    flex-wrap: nowrap;
 }
 
 .FondoFooter .CenteredButton {
@@ -67,17 +71,19 @@ $Fondopaginador: #c5c5c5;
 }
 
 .FondoFooter .CenteredButton img {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
 }
 
 .BotonesRedes {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 15px;
-    padding: 0 5px;
+    gap: 4px;
+    padding: 0 8px;
+    flex: 1;
+    min-width: 0;
 }
 
 .Titulo {
