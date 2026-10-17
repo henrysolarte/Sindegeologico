@@ -24,13 +24,9 @@ export default function Footer() {
 
             <div className="col-4">
               <div className="Botones">
-                {/* <div className="row LogoSGCRow">
-                  <img src="/assets/img/logo-sindegeologico.png" className="LogoSGC col-12" alt="Logo Sindegeologico"/>
-                </div> */}
-
                 <div className="row Redes">
                   <div className="BotonesRedes col-4">
-                    <a href="#">
+                    <a href="https://x.com/sindegeologico">
                       <button className="CenteredButton" aria-label="Twitter">
                         <img src="/assets/img/x-twitter.svg" alt="Iconotwitter"/>
                       </button>
@@ -39,7 +35,7 @@ export default function Footer() {
                   </div>
 
                   <div className="BotonesRedes col-4">
-                    <a href="">
+                    <a href="https://www.instagram.com/sindegeologicoficial/">
                       <button className="CenteredButton" aria-label="instagram">
                         <img src="/assets/img/instagram.svg" alt="IconoInsta"/>
                       </button>
@@ -48,7 +44,7 @@ export default function Footer() {
                   </div>
 
                   <div className="BotonesRedes col-4">
-                    <a href="#">
+                    <a href="https://www.facebook.com/SINDEGEOLOGICOFICIAL">
                       <button className="CenteredButton" aria-label="facebook">
                         <img src="/assets/img/facebook.svg" alt="IconoFacebook"/>
                       </button>

@@ -75,6 +75,21 @@ $Fondopaginador: #c5c5c5;
     height: 20px;
 }
 
+.LogoFooterDerecha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 12px;
+    border-top: 1px solid #d7e2da;
+}
+
+.LogoFooterDerecha img {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+}
+
 .BotonesRedes {
     display: flex;
     flex-direction: column;
