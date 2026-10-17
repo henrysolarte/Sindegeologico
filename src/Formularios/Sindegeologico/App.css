@@ -114,12 +114,15 @@ h1 {
 
 h2 {
   margin: 24px 0 10px;
+  padding: 12px 14px;
   font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 0.7px;
   color: var(--green-900);
-  border-left: 5px solid var(--gold-500);
-  padding-left: 10px;
+  background: #eff6f1;
+  border-left: 6px solid var(--gold-500);
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 60, 35, 0.12);
 }
 
 p {

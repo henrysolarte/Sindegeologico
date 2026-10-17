@@ -24,9 +24,9 @@ export default function Footer() {
 
             <div className="col-4">
               <div className="Botones">
-                <div className="row LogoSGCRow">
-                  <img src="/assets/img/Logo_SGC.svg" className="LogoSGC col-12" alt="Logo SGC"/>
-                </div>
+                {/* <div className="row LogoSGCRow">
+                  <img src="/assets/img/logo-sindegeologico.png" className="LogoSGC col-12" alt="Logo Sindegeologico"/>
+                </div> */}
 
                 <div className="row Redes">
                   <div className="BotonesRedes col-4">

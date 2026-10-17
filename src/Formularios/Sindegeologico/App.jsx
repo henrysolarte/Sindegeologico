@@ -425,7 +425,7 @@ function App() {
             {/* 1. LADO IZQUIERDO: LOGO */}
             <div className="d-flex align-items-center gap-3">
               <a href="/" className="logo d-flex align-items-center text-decoration-none">
-                <img src="/assets/img/logoSGC.jpg" alt="SGC Logo" style={{ height: '120px', width: 'auto', maxHeight: 'none', objectFit: 'contain' }} />
+                <img src="/assets/img/logo-sindegeologico.png" alt="SGC Logo" style={{ height: '156px', width: 'auto', maxHeight: 'none', objectFit: 'contain' }} />
               </a>
             </div>
 
@@ -437,9 +437,13 @@ function App() {
                 fontStyle: 'italic',
                 fontSize: '1.7rem',
                 color: '#ffffff',
-                textShadow: '1px 1px 3px rgba(0, 0, 0, 0.3)'
+                background: 'none',
+                border: 'none',
+                padding: '0',
+                margin: '0',
+                boxShadow: 'none'
               }}>
-                "Si estamos unidos, nadie queda atrás"
+                Si estamos unidos, nadie queda atrás
               </h2>
             </div>
 
@@ -461,11 +465,11 @@ function App() {
       <div className="card">
         <div className="brand-block">
           <div className="brand-inner">
-            <img
+            {/* <img
               className="brand-logo"
               src={logoSindegeologico}
               alt="Logo SINDEGEOLÓGICO"
-            />
+            /> */}
             <div className="brand-text">
               <p className="brand-name">SINDEGEOLÓGICO</p>
               <p className="brand-slogan">Si estamos unidos, nadie queda atrás</p>

@@ -121,6 +121,11 @@ $Fondopaginador: #c5c5c5;
     color: #005833;
     font-weight: bold;
     margin-bottom: 0% !important;
+    display: inline-block;
+    padding: 6px 12px;
+    background: linear-gradient(90deg, rgba(6, 145, 105, 0.1), rgba(6, 145, 105, 0.05));
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 88, 51, 0.15);
 }
 
 .ContenedorFooter h4 {
